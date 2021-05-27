@@ -13,6 +13,7 @@ const Content = ({parts}) => {
   const[part1,part2,part3] = parts;
   return (
     <div>
+      <h1>Content</h1>
       <p>
         Hello the part name is {part1.name} and the number of exercises in it are {part1.exercises}
       </p>
@@ -29,6 +30,7 @@ const Total = ({parts}) => {
   const[part1,part2,part3] = parts;
   return (
     <div>
+      <h1>Total</h1>
       <p>Total number of exercises are : {part1.exercises+part2.exercises+part3.exercises}</p>
     </div>
   )
