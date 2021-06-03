@@ -22,7 +22,7 @@ const App = () => {
 
   const handleClick = () => {
     setSelected(Math.ceil(Math.random() * anecdotes.length));
-  }
+  };
   return (
     <div>
       <p>{anecdotes[selected]}</p>
