@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div>
       <p>{anecdotes[selected]}</p>
-      <button onClick={() => setSelected(Math.ceil(Math.random() * 5))}>
+      <button onClick={() => setSelected(Math.ceil(Math.random() * anecdotes.length))}>
                 Next Anecdote
             </button>
     </div>
