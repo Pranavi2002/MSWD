@@ -1,6 +1,6 @@
 import React from "react";
 
-const BasicCountryInfo = ({ country }) => {
+const CountryInfo = ({ country }) => {
   return (
     <div>
       <h1>{country.name}</h1>
@@ -21,4 +21,4 @@ const BasicCountryInfo = ({ country }) => {
   );
 };
 
-export default BasicCountryInfo
+export default CountryInfo
