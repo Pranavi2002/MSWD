@@ -1,5 +1,5 @@
 import React from 'react'
-import BasicCountryInfo from './CountryInfo'
+import CountryInfo from './CountryInfo'
 
 
 const Search = ({ countries, filter }) => {
@@ -28,7 +28,7 @@ const Search = ({ countries, filter }) => {
     else {
       return (
         <div>
-          <BasicCountryInfo country={filtered[0]} />
+          <CountryInfo country={filtered[0]} />
         </div>
       );
     }
