@@ -2,7 +2,7 @@ import React, { useState, useRef,  useEffect } from "react";
 import Filter from "./components/Filter";
 import PersonForm from "./components/PersonForm";
 import Persons from "./components/Persons";
-import getAll  from './services/persons';
+import personService  from './services/persons';
 import axios from 'axios'
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
 
     useEffect(() => {
         console.log('effect')
-        noteService.getAll()
+        personService.getAll()
           .then(response => {
             console.log('promise fulfilled')
             setPersons(response.data)
