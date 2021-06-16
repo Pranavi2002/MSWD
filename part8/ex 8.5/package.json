@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sai Pranavi",
   "dependencies": {
     "apollo-server-express": "^2.25.0",
     "express": "^4.17.1",
